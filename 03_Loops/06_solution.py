@@ -2,10 +2,11 @@
 # Compute the factorial of a number using a while loop
 
 number = int(input("give a number to find the factorial: \n"))
+given_number = number
 factorial = 1
 
 while number > 0:
     factorial *= number
     number -= 1
 
-print("Factorial of given number is", factorial)
+print("Factorial of", given_number, "is", factorial)
